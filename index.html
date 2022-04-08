@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+  <!--[if lt IE 9]><script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script><![endif]-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="../dist/source-sans.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/material-icons@1.10.8/iconfont/material-icons.min.css">
+  <link rel="stylesheet" href="../dist/bundle-app.css" />
+  <style>
+    #references p {
+      margin: 0;
+      display: list-item;
+      list-style-type: decimal;
+    }
+  </style>
+</head>
+
+<body class="mdc-typography">
+  <aside class="mdc-drawer mdc-drawer--modal">
+    <div class="mdc-drawer__content">
+      <nav class="mdc-list">
+        <a class="mdc-list-item mdc-list-item--activated" href="./" aria-current="page" tabindex="0">
+          <span class="mdc-list-item__ripple"></span>
+          <span class="mdc-list-item__text">Home</span>
+        </a>
+        <a class="mdc-list-item" href="./research-journey.html">
+          <span class="mdc-list-item__ripple"></span>
+          <span class="mdc-list-item__text">My Research Journey</span>
+        </a>
+        <a class="mdc-list-item" href="./evidence.html">
+          <span class="mdc-list-item__ripple"></span>
+          <span class="mdc-list-item__text">Evidence</span>
+        </a>
+        <a class="mdc-list-item" href="./evaluating-sources.html">
+          <span class="mdc-list-item__ripple"></span>
+          <span class="mdc-list-item__text">Evaluating Sources</span>
+        </a>
+        <a class="mdc-list-item" href="./communicating-arguments.html">
+          <span class="mdc-list-item__ripple"></span>
+          <span class="mdc-list-item__text">Communicating Arguments</span>
+        </a>
+        <a class="mdc-list-item" href="./taking-action.html">
+          <span class="mdc-list-item__ripple"></span>
+          <span class="mdc-list-item__text">Taking Action</span>
+        </a>
+        <a class="mdc-list-item" href="./references.html">
+          <span class="mdc-list-item__ripple"></span>
+          <span class="mdc-list-item__text">References</span>
+        </a>
+      </nav>
+    </div>
+  </aside>
+  <div class="mdc-drawer-scrim"></div>
+  <div class="mdc-drawer-app-content">
+    <header class="mdc-top-app-bar mdc-top-app-bar--fixed">
+      <div class="mdc-top-app-bar__row">
+        <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+          <button class="material-icons mdc-top-app-bar__navigation-icon mdc-icon-button"
+            aria-label="Open navigation menu" title="Open navigation menu">menu</button>
+          <span class="mdc-top-app-bar__title">Eradicating Misandry</span>
+        </section>
+      </div>
+    </header>
+    <main class="main-content mdc-top-app-bar--fixed-adjust">
+      <div role="progressbar" class="mdc-linear-progress mdc-linear-progress--indeterminate" aria-hidden="true"
+        id="page-loading">
+        <div class="mdc-linear-progress__buffer">
+          <div class="mdc-linear-progress__buffer-bar"></div>
+          <div class="mdc-linear-progress__buffer-dots"></div>
+        </div>
+        <div class="mdc-linear-progress__bar mdc-linear-progress__primary-bar">
+          <span class="mdc-linear-progress__bar-inner"></span>
+        </div>
+        <div class="mdc-linear-progress__bar mdc-linear-progress__secondary-bar">
+          <span class="mdc-linear-progress__bar-inner"></span>
+        </div>
+      </div>
+      <article class="container">
+        <h1>Eradicating Misandry</h1>
+        <p class="mdc-typography--headline4">Semester 2: Interdependence and Equity Research Project</p>
+        <p>In many countries around the world, misandry—the hatred of or prejudice against men—is a noticeable problem,
+          socially and legally.</p>
+        <ul>
+          <li><strong>What/Who is affected by this problem?</strong> Men and boys everywhere face discrimination.</li>
+          <li><strong>Where is this problem occurring?</strong> It can occur anywhere and in any way, even in more
+            developed
+            countries.</li>
+          <li><strong>The current situation of this problem is?</strong> Misogyny—the hatred of or prejudice against
+            women—is also a similar
+            issue, but much more is done to it, because many know that women have been traditionally oppressed in the
+            past and do not accept the idea of the opposite also happening in the world. Little know about and care
+            about the issue of misandry.</li>
+          <li><strong>The ideal situation would be?</strong> Ideally, we would want a state of gender equality, where
+            everyone, regardless of gender, are given the same opportunities and respect.</li>
+          <li><strong>Potential consequences if not changed?</strong> Misandry decreases victims’ self-esteem and
+            creates a plethora of mental health issues. Victims are also abused physically. Repeated cases of abuse like
+            this may lead men and boys to feel or even be useless in society, removing important perspectives and
+            perhaps even some life-changing ideas.</li>
+        </ul>
+        <h2>About</h2>
+        <p>This website was created to bring light to these important but ignored issues and to show another part of the
+          equation on gender equality.</p>
+      </article>
+      <div id="internetConnection"></div>
+    </main>
+  </div>
+  <!-- import the Material javascript file -->
+  <script src="../dist/bundle-app.js"></script>
+  <script src="../dist/anchor.min.js"></script>
+  <script deter>
+    setTimeout(
+      function () {
+        document.getElementById('page-loading').style.opacity = 0
+      }, 500
+    )
+  </script>
+</body>
+
+</html>
